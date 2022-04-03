@@ -32,6 +32,7 @@ export default function HomeMain() {
             challenge: textareaValue.textarea
         }
         axios.post("https://eco-ninja.herokuapp.com/new-request", details)
+        window.location.href = "https://vocal-gelato-889fdb.netlify.app/";
     }
     return (
         <main>
